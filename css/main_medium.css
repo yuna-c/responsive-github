@@ -1,0 +1,63 @@
+@charset "UTF-8";
+/* 
+@media 미디어 타입 and (미디어특성){
+    css 코드
+}
+
+미디어 타입 : 
+1. all : 모든 미디어 타입에 적용
+2. screen : 컴퓨터 화면, 타블렛, 스마트폰 등
+3. print : 인쇄 전용
+
+orientation (뷰포트 방향) -> portrait, landscape
+@media screen and (max-width:1200px){ // 1200px 이하일 때
+    body{
+        color:red;
+    }
+}
+*/
+
+
+/* media */
+/* @media (max-width:1024px) {} */
+
+/* header */
+header.section .inner{ max-width:none; height:auto; padding:0 20px; transition:1s; }
+header .menu-group, header .sign-group{ float:none; }
+header .menu-group{ display:block; }
+header .logo{ padding:12px 0; }
+header .main-menu{ margin-top:10px; display:block; }
+header .main-menu li{ border-top:1px solid #e5e5e5; }
+header .main-menu li a{ padding:16px 0; }
+header .sign-group { padding:10px 0 20px; display:block; }
+header .btn-group{ display:block; }
+header .btn-group .btn{ justify-content:center; }
+header .btn-group .sign-in{ margin-bottom:12px; margin-right:0; }
+header .search-form{ margin-top:12px; margin-right:0; }
+header .search-form #search{ width:100%; height:42px; text-align:center; }
+header .sub-menu{ margin-top:12px; margin-right:0; justify-content:center; }
+header .toggle{ display:none; }
+header .toggle.on{ display:block; }
+header .toggle-btn{ display:block; }
+
+/* visual */
+.section--visual{ background-image:url(../img/bg_small.jpg); }
+.section--visual .inner{ max-width:none; padding:80px 20px; display:block; text-align:center; }
+.section--visual .inner .summary{ margin-right:0; margin-bottom:50px; text-align:center; }
+.section--visual .sign-form{ max-width:500px; width:auto; margin:0 auto; }
+
+/* feacher */
+.setcion--feature .summary{ padding:66px 20px 0 20px; }
+.setcion--feature .tiles li{ width:50%; }
+.setcion--feature .tiles li img{ padding:14px 30% 24px; }
+
+/* where is */
+.section--where{ max-width:none; padding:80px 20px 0 20px; }
+
+/* pricing card */
+.section--pricing{ max-width:none; padding:80px 20px 0 20px; }
+.section--pricing .card .cell2{ font-size:20px; }
+
+/* footer */
+footer .inner{ padding:50px 20px; }
+footer .logo{ display:none; }
